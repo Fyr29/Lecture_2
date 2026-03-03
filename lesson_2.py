@@ -148,13 +148,13 @@
 # print(result)
 
 ###
-result = divmod(9, 5)  # // and %
-print(result)
-print(type(result))
-
-first_part, second_part = divmod(9, 5)
-print(first_part)
-print(second_part)
+# result = divmod(9, 5)  # // and %
+# print(result)
+# print(type(result))
+#
+# first_part, second_part = divmod(9, 5)
+# print(first_part)
+# print(second_part)
 
 ####
 # Пользователь вводит с клавиатуры три числа. Необходимо найти сумму чисел, произведение чисел.
