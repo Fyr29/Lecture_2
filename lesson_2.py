@@ -4,7 +4,7 @@
 # str -> рядок - масив (набір) символів
 
 # Змінна - це іменована область оперативної пам'яті значення можна змінювати
-# number: int = 10 + 1
+# number = 10 + 1
 # print(number)
 # print(type(number))
 # number = 20.5
@@ -16,6 +16,7 @@
 # number = True
 # print(number)
 # print(type(number))
+
 
 # let num = 10;
 # num = 30;
@@ -85,14 +86,14 @@
 # print(n2)
 # print(n2_v2)
 # print(n3)
-# #
-# # # v1
-# print(n1, n2, n3, sep=" - ")
-# # # # v2
-# print(f"{n1}-{n2}-{n3}")
-# phone = "123456"
-# phone = f"+{phone}"
-# #
+# # # #
+# # # # # v1
+# # print(n1, n2, n3, sep=" - ")
+# # # # # v2
+# # print(f"{n1}-{n2}-{n3}")
+# # phone = "123456"
+# # phone = f"+{phone}"
+# # #
 # result = n1 + n2 + n3
 # print("Result:", result)
 
@@ -147,13 +148,13 @@
 # print(result)
 
 ###
-# result = divmod(9, 5)  # // and %
-# print(result)
-# print(type(result))
-#
-# first_part, second_part = divmod(9, 5)
-# print(first_part)
-# print(second_part)
+result = divmod(9, 5)  # // and %
+print(result)
+print(type(result))
+
+first_part, second_part = divmod(9, 5)
+print(first_part)
+print(second_part)
 
 ####
 # Пользователь вводит с клавиатуры три числа. Необходимо найти сумму чисел, произведение чисел.
