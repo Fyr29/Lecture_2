@@ -50,7 +50,13 @@ print(f'Посдледняя цифра в вашем чесле - {last_number}
 print()
 
 
-
+# 6 (Периметр и площадь)
+user_input_length = int(input('Посчитаем периметр и площадь.\nВведите длину: '))
+user_input_width = int(input('Введите ширину: '))
+perimeter = user_input_length * 2 + user_input_width * 2
+area = user_input_length * user_input_width
+print(f'Периметр = {perimeter}\nПлощадь = {area}')
+print()
 
 
 
