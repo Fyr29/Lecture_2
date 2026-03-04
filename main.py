@@ -25,6 +25,10 @@ average_result_2 = (average_x + average_y + average_n) / 3
 print (f'А это среднее арифметическое из чисел {average_x}, {average_y}, {average_n} = {average_result_2}')
 print()
 
+# X // N = A
+# A * N = Y
+# X - Y = C
+# X % N = C
 
 # 3 Время
 user_input_time = int(input('А сейчас минуты переведем в часы.\nПример: 270 = 4 часа 30 минут\nВведите число и мы посчитаем: '))
@@ -58,6 +62,24 @@ area = user_input_length * user_input_width
 print(f'Периметр = {perimeter}\nПлощадь = {area}')
 print()
 
+
+# 7 (1) (Столбик)
+user_input_number = int(input('Введите 4-х значное число: '))
+num_1 = user_input_number // 1000
+num_2 = user_input_number % 1000 // 100
+num_3 = user_input_number % 100 // 10
+num_4 = user_input_number % 10
+print(f'А вот слобик))\n{num_1}\n{num_2}\n{num_3}\n{num_4}')
+print()
+
+# X // N = A
+# A * N = Y
+# X - Y = C
+# X % N = C
+
+# 7 (2) (Столбик)
+user_input_number_2 = list(input('введите другое 4-х значное число: '))
+print(f'И второй столбик\n{user_input_number_2[0]}\n{user_input_number_2[1]}\n{user_input_number_2[2]}\n{user_input_number_2[3]}')
 
 
 # echo "# education_python" >> README.md
