@@ -15,7 +15,7 @@ print(f'Среднее число из числел {user_input_average[0]}, {us
 print()
 
 
-#2 (2) Среднее арефметическое
+# 2 (2) Среднее арефметическое
 user_input_average_2 = int(input('Введите другое трех значное число: '))
 average_x = user_input_average_2 // 100
 average_y = user_input_average_2 % 100 // 10
@@ -26,7 +26,7 @@ print (f'А это среднее арифметическое из чисел {
 print()
 
 
-#3 Время
+# 3 Время
 user_input_time = int(input('А сейчас минуты переведем в часы.\nПример: 270 = 4 часа 30 минут\nВведите число и мы посчитаем: '))
 time_result_h = user_input_time // 60
 time_result_m = user_input_time % 60
@@ -34,13 +34,21 @@ print(f'{user_input_time} минут = {time_result_h} часа(ов), {time_res
 print()
 
 
-#4
+# 4 Скидка
 user_input_price = int(input('Теперь посчитаем скидку, введите цену товара: '))
 user_input_discount = int(input('И введите скидку (%): '))
 final_price = user_input_price * (1-user_input_discount / 100)
 #user_input_price - (user_input_price * user_input_discount / 100)
 print(f'Цена с учетом скидки составляет {final_price}')
 print()
+
+
+# 5 (Последняя цифра)
+user_input_last = int(input('Введите любое число: '))
+last_number = user_input_last % 10
+print(f'Посдледняя цифра в вашем чесле - {last_number}')
+print()
+
 
 
 
